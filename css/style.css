@@ -1,0 +1,76 @@
+:root {
+  --white-bg-color: #fff;
+  --main-bg-color: #ebf3f5;
+  --accent-color: #5c8692;
+  --secondary-accent-color: #1e2c30;
+
+  --main-text-color: #141414;
+  --secondary-text-color: #555555;
+  --second-bg-footer: #111e22;
+}
+
+body {
+  color: var(--main-text-color);
+}
+
+footer {
+  color: var(--white-bg-color);
+  background-color: var(--secondary-accent-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.active {
+  color: var(--accent-color);
+}
+
+nav a:hover,
+nav a:focus {
+  color: var(--accent-color);
+}
+
+.bg-section {
+  background-color: var(--main-bg-color);
+}
+
+.pre-title {
+  color: var(--accent-color);
+}
+
+.discr-text {
+  color: var(--secondary-text-color);
+}
+
+.copyright {
+  background-color: var(--second-bg-footer);
+}
+
+.accent-btn {
+  background-color: var(--accent-color);
+  color: var(--white-bg-color);
+  padding: 19px 30px 19px 30px;
+  border: none;
+}
+
+.second-btn {
+  color: var(--secondary-text-color);
+  padding: 18px 32px 19px 32px;
+  border: 2px solid var(--accent-color);
+  background-color: var(--white-bg-color);
+}
+
+.post {
+  background-color: var(--white-bg-color);
+}
+
+.author-post {
+  background-color: var(--secondary-accent-color);
+  color: var(--white-bg-color);
+}
