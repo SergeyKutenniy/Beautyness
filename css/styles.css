@@ -1,0 +1,197 @@
+:root {
+  --white-bg-color: #fff;
+  --main-bg-color: #ebf3f5;
+  --accent-color: #5c8692;
+  --secondary-accent-color: #1e2c30;
+
+  --main-text-color: #141414;
+  --secondary-text-color: #555555;
+  --second-bg-footer: #111e22;
+}
+
+body {
+  color: var(--main-text-color);
+  font-family: Manrope, sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Playfair Display;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 1.31;
+  letter-spacing: 0.04em;
+}
+
+h2 {
+  font-size: 45px;
+  line-height: 1.31;
+  letter-spacing: 0.03em;
+}
+
+footer {
+  color: var(--white-bg-color);
+  background-color: var(--secondary-accent-color);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  color: var(--secondary-text-color);
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  font-family: Manrope, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+}
+
+.pre-title {
+  color: var(--accent-color);
+  font-size: 15px;
+  line-height: 1.53;
+  letter-spacing: 0.09em;
+}
+
+.accent-btn {
+  background-color: var(--accent-color);
+  color: var(--white-bg-color);
+  border: none;
+}
+
+.bg-section {
+  background-color: var(--main-bg-color);
+}
+
+.secondary-btn {
+  color: var(--secondary-text-color);
+  /* padding: 18px 32px 19px 32px; */
+  border: 2px solid var(--accent-color);
+  background-color: var(--white-bg-color);
+}
+
+.vissually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* ------------------------HEADER------------------------ */
+
+.current {
+  color: var(--accent-color);
+}
+
+.nav-link {
+  font-size: 17px;
+  line-height: 1.53;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.header-tel {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.header-btn {
+  font-size: 14px;
+  /* padding: 19px 30px 19px 30px; */
+  letter-spacing: 0.09em;
+}
+
+/* ------------------------HERO------------------------ */
+
+.hero-btn {
+  /* padding: 18px 32px 19px 32px; */
+}
+
+.hero-descr {
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+/* ------------------------SERVICES------------------------ */
+
+.services-title {
+  font-size: 26px;
+  line-height: 1.38;
+  letter-spacing: 0.02em;
+}
+
+.services-descr {
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.02em;
+}
+
+/* ------------------------FOOTER------------------------ */
+
+.copyright {
+  background-color: var(--second-bg-footer);
+}
+
+.post {
+  background-color: var(--white-bg-color);
+}
+
+.author-post {
+  background-color: var(--secondary-accent-color);
+  color: var(--white-bg-color);
+}
+
+.balance-descr {
+  font-size: 18px;
+  line-height: 1.72;
+}
+
+.balance-quality {
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+}
+.prices h3 {
+  font-size: 22px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+}
+
+.prices-from {
+  color: var(--secondary-text-color);
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
